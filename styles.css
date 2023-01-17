@@ -1,0 +1,32 @@
+html{
+    font-family: roboto;
+}
+body{
+    margin: 0;
+}
+.Header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#Hero-text{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    flex: auto;
+    flex-direction: row-reverse;
+    list-style: none;
+    margin-top: 0px;
+}    
+li{
+      margin: 10px; 
+      
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
