@@ -5,28 +5,75 @@ body{
     margin: 0;
 }
 .Header{
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.Sub_Header{
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    justify-content: center;
+    gap: 8px;
+    
+}
+.Sub_Header img{
+    align-self: center;
+    background-color: #858585;
+    flex-grow: 2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 5%;
+}
+.Sub_Header-signup{
+    flex-direction: column;
+    flex-grow: 1;
+}
+.Signup{
+    background-color: #3882F6;
+    border-radius: 1em;
+    padding: 2%;
 }
 #Hero-text{
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 10px;
 }
-
 ul {
     display: flex;
-    flex: auto;
-    flex-direction: row-reverse;
+    flex-direction: row;
     list-style: none;
     margin-top: 0px;
-}    
+}
+ol{
+    display: flex;
+    list-style: none;
+    min-width: inherit;
+    min-height: inherit;
+}
 li{
-      margin: 10px; 
-      
+    flex:auto;
+    margin: 10px; 
+    object-fit: cover;
+    display:flex;
+    flex-direction: column;
+    min-width: inherit;
+    min-height: inherit;
+}
+img{
+
+    flex: inherit;
+    object-fit: cover;
+}
+.Image_List{
+    min-width: 25%;
 }
 a{
     text-decoration: none;
     color: inherit;
+    min-width: 0px;
+    min-height: 0px;
 }
