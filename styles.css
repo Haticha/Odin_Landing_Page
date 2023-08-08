@@ -2,7 +2,7 @@ html{
     font-family: roboto;
 }
 body{
-    margin: 0;
+    margin: 0px;
 }
 .Header{
     padding:1% 10% 1% 10%;
@@ -35,7 +35,15 @@ body{
 .Signup{
     background-color: #3882F6;
     border-radius: 1em;
-    padding: 2%;
+    padding: 5px;
+    border-color: inherit;
+    border-style: inherit;
+    border-width: inherit;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: fit-content;
+    min-block-size: padding+1px;
 }
 .Info{
     padding-left: 10%;
@@ -64,17 +72,46 @@ body{
     text-align: end;
     margin: inherit;
 }
+.Signup_banner{
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 10% 15% 10% 15%;
+    padding: 5% 10% 5% 10%;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.Signup_call{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+.Footer{
+    align-items: center;
+    background-color: #1f2937;
+    padding: 5%;
+    color: #E5E7EB;
+    text-align: center;
+}
 #Hero-text{
     background-color: #1f2937;
     color: #E5E7EB;
     font-size: 18px;
-
 }
 h2{
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+h4{
+    margin: inherit;
+}
+p{
+    margin: inherit;
 }
 ul {
     display: flex;
